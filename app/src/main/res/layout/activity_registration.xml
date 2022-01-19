@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:textColor="@color/orange"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:inputType="textAutoComplete"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/edit_text_username"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Enter username" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textEmailAddress"
+            android:text="@string/email"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Enter email" />
+
+        <TextView
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textEmailAddress"
+            android:text="@string/phone_number"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit_text_phone_no"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Enter phone number" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textEmailAddress"
+            android:text="@string/Register_as"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:background="@color/browser_actions_bg_grey"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"
+            android:onClick="Save"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

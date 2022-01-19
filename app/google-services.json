@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6141718816",
+    "project_id": "homemade-d72b0",
+    "storage_bucket": "homemade-d72b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6141718816:android:5f67aec5e2357ad5356745",
+        "android_client_info": {
+          "package_name": "com.project.homemade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6141718816-6u7vmb9p77a70bljsc0di348q6osds14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQUbtf8tkdCFvKDEqYEXrIlbUr8qM6zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6141718816-6u7vmb9p77a70bljsc0di348q6osds14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

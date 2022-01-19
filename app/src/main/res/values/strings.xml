@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Homemade</string>
+    <string name="login">Login as:</string>
+    <string name="home_baker">Home Baker</string>
+    <string name="customer">Customer</string>
+    <string name="register">Register?</string>
+    <string name="bakers_login">Bakers Login</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="registration">Registration</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone No.</string>
+    <string name="place_order">Place Order</string>
+    <string name="customer_name">Customer name</string>
+    <string name="order_category">Order Category</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_info">Additional information</string>
+    <string name="date_due">Date Due</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="homebaker_profile">Baker Profile</string>
+    <string name="customer_profile">Customer Profile</string>
+    <string name="change_username">Change username</string>
+    <string name="change_password">Change password</string>
+    <string name="change_email">Change email</string>
+    <string name="change_location">Change fixed location</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Register_as">Register As</string>
+    <string-array name="Occupation">
+        <item>Home Baker</item>
+        <item>Customer</item>
+
+    </string-array>
+
+    <string-array name="Pastry_Category">
+        <item>Cakes</item>
+        <item>Muffins</item>
+        <item>Pies</item>
+        <item>Brownies</item>
+        <item>Cookies</item>
+        <item>Bread</item>
+        <item>Donuts</item>
+        <item>Pudding</item>
+
+
+    </string-array>
+
+
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="app_label">Homemade</string>
+    <string name="search_hint">Search by baker or pastry</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="set_fixed_location">Set Fixed Location</string>
+    <string name="todo">TODO</string>
+    <string name="change_phone">Change phone number</string>
+    <string name="button_icon_desc">Logout</string>
+    <string name="category">Category</string>
+    <string name="contact">Contact</string>
+    <string name="location">location</string>
+    <string name="baker_1">Baker 1</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+
+</resources>

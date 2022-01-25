@@ -187,7 +187,7 @@ public class RegistrationActivity extends AppCompatActivity implements AdapterVi
                             });
 
                         } else {
-                            Toast.makeText(RegistrationActivity.this, "Authentication failed",
+                            Toast.makeText(RegistrationActivity.this, "Opps Something went wrong",
                                     Toast.LENGTH_SHORT).show();
                         }
                     }

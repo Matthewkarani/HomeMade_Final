@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (document.exists()) {
                     Log.d(TAG, "DocumentSnapshot data: " + document.getData());
                     String Occupation = document.getString("Occupation");
-                    if (!(Occupation != null ? Occupation.equals("Baker") : false)) {
+                    if (!(Occupation != null ? Occupation.equals("Home Baker") : false)) {
                         sendtoCustomerMain();
 
                     } else {
@@ -118,12 +118,15 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void sendtoBakerMain() {
-        Intent intent = new Intent(LoginActivity.this, BakerMapActivity.class);
+        //Add if statements to check if user has created a profile.....If profile is created , send to main Activity...else send to profile page
+        Intent intent = new Intent(LoginActivity.this, Baker_Account.class);
         startActivity(intent);
     }
 
     private void sendtoCustomerMain() {
-        Intent intent = new Intent(LoginActivity.this, MapsActivity.class);
+        //Add if statements to check if user has created a profile.....If profile is created , send to main Activity...else send to profile page
+
+        Intent intent = new Intent(LoginActivity.this, CustomerProfile.class);
       startActivity(intent);
     }
 

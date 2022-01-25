@@ -3,18 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/drawable/action_button_style.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_baker_account.xml" value="0.22" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_baker_map.xml" value="0.15715579710144928" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_baker_profile.xml" value="0.15715579710144928" />
-        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_customer_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_customer_profile.xml" value="0.21" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_forgot_password.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_login.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_maps.xml" value="0.15715579710144928" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_place_order.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_post.xml" value="0.10625" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_registration.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_settings.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_single_post.xml" value="0.1" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/activity_welcome.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/card_items.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/comment_pop.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/fragment_search.xml" value="0.2" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/layout/user_item.xml" value="0.14" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/menu/bottom_navigation.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/menu/current_place_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Matthew/AndroidStudioProjects/HomeMade4/app/src/main/res/menu/menu_main.xml" value="0.10625" />
       </map>
     </option>
   </component>

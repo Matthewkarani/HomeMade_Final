@@ -3,43 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/blue">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/save_location_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textSize="30dp"
-        android:textColor="@color/red"
-        android:text="Set Fixed Location" />
+        android:background="@color/orange"
+        app:titleTextAppearance="@string/set_fixed_location" />
+
+
 
 
     <fragment
         android:id="@+id/map2"
+        android:layout_below="@id/save_location_toolbar"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
+
         tools:context=".location.MapsActivity"
         tools:layout="@layout/abc_list_menu_item_radio" />
 
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <Button
         android:id="@+id/add_alarm_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
         android:layout_marginBottom="24dp"
-        app:fabSize="normal"
+        android:backgroundTint="@color/red"
+        android:contentDescription="@string/todo"
         android:onClick="saveLocation"
-        android:contentDescription="@string/todo" />
+        android:text="Save Location"
+        android:textColor="@color/white"
+        app:fabSize="normal" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="690dp"
-        android:layout_marginLeft="300dp"
-        android:text="NEXT"/>
+
 
 </RelativeLayout>
